@@ -1,0 +1,35 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net10.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="1000_F_618845584_2sU6OwVA6Xvvq85nvcgCb7jKxT5nYn9f.jpg" />
+    <None Remove="2d127d3ccc5e32082b9b674647b3abc7.jpg" />
+    <None Remove="cartoon-mine-entrance-24861077.jpg" />
+    <None Remove="iamages.jpg" />
+    <None Remove="imaffges.jpg" />
+    <None Remove="images.jpg" />
+    <None Remove="istockphoto-1463998772-612x612.jpg" />
+    <None Remove="mama.jpg" />
+    <None Remove="mama.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="1000_F_618845584_2sU6OwVA6Xvvq85nvcgCb7jKxT5nYn9f.jpg" />
+    <Resource Include="2d127d3ccc5e32082b9b674647b3abc7.jpg" />
+    <Resource Include="cartoon-mine-entrance-24861077.jpg" />
+    <Resource Include="iamages.jpg" />
+    <Resource Include="imaffges.jpg" />
+    <Resource Include="images.jpg" />
+    <Resource Include="istockphoto-1463998772-612x612.jpg" />
+    <Resource Include="mama.jpg" />
+    <Resource Include="mama.png" />
+  </ItemGroup>
+
+</Project>

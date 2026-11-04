@@ -1,0 +1,37 @@
+﻿<Window x:Class="CookieClicker.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:CookieClicker"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <Grid.Background>
+            <ImageBrush ImageSource="/iamages.jpg"/>
+        </Grid.Background>
+        <TextBlock x:Name="pocetSekund" HorizontalAlignment="Left" Margin="623,219,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="121" Width="167" Foreground="#FF020000" Background="#FFF3F3F3" FontSize="60"/>
+        <Button x:Name="CookieBTN" Content="" HorizontalAlignment="Left" Margin="456,10,0,0" VerticalAlignment="Top" Height="204" Width="334" Click="CookieBTN_Click">
+            <Button.Background>
+                <ImageBrush ImageSource="/images.jpg"/>
+            </Button.Background>
+        </Button>
+        <Button x:Name="KurzorKupitBTN" Content="" HorizontalAlignment="Left" VerticalAlignment="Top" Height="105" Width="155" Click="KurzorKupitBTN_Click">
+            <Button.Background>
+                <ImageBrush ImageSource="/1000_F_618845584_2sU6OwVA6Xvvq85nvcgCb7jKxT5nYn9f.jpg"/>
+            </Button.Background>
+        </Button>
+        <Button x:Name="BabkaKupitBTN" Content="" HorizontalAlignment="Left" Margin="0,127,0,0" VerticalAlignment="Top" Height="105" Width="155" Click="BabkaKupitBTN_Click">
+            <Button.Background>
+                <ImageBrush ImageSource="/2d127d3ccc5e32082b9b674647b3abc7.jpg"/>
+            </Button.Background>
+        </Button>
+        <Button x:Name="BanaKupitBTN" Content="" HorizontalAlignment="Left" Margin="0,251,0,0" VerticalAlignment="Top" Width="155" Height="105" Click="BanaKupitBTN_Click">
+            <Button.Background>
+                <ImageBrush ImageSource="/istockphoto-1463998772-612x612.jpg"/>
+            </Button.Background>
+        </Button>
+        <Label Content="" HorizontalAlignment="Left" Margin="484,233,0,0" VerticalAlignment="Top" Height="163" Width="111" Background="#FFBA74B8"/>
+
+    </Grid>
+</Window>
